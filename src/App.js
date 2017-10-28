@@ -21,7 +21,7 @@ class App extends Component {
 
   predictImage(url) {
     this.setState({buttonText: '...'});
-    return fetch('http://200.16.7.160:3000/predict', {
+    return fetch('https://pokedex-neural-net.herokuapp.com/predict', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
