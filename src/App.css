@@ -2,6 +2,52 @@ body {
   background-color: #ffca28       !important;
 }
 
+.card {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+}
+
+.container {
+  background-color: gray;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.number {
+  color: gray;
+}
+
+.two-column-container {
+  display: flex;
+  align-items: center;
+}
+
+.two-column-container > div {
+  flex: 1;
+}
+
+.info-container {
+  align-items: start;
+}
+
+.info-subcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.info-subcontainer > div {
+  flex: 1;
+}
+
+
+
+
 .image-container {
   margin-top: 10px;
   padding: 10px;
@@ -11,7 +57,7 @@ body {
 }
 
 .image-container img {
-  height: 500px;  
+  width: 250px;  
   display: block;
   margin: 0 auto;  
 }
